@@ -101,7 +101,7 @@ if __name__ == "__main__":
             response = requests.get(image_url)
             
             # Extract the image filename from the URL
-            filename = item['filename']
+            filename = sanitize_filename(item['filename'])
             
             # Save the image to the workspace folder
             image_path = os.path.join(folder_path, filename)
@@ -118,7 +118,7 @@ if __name__ == "__main__":
             response = requests.get(video_url)
             
             # Extract the video filename from the URL
-            filename = item['filename']
+            filename = sanitize_filename(item['filename'])
             
             # Save the video to the workspace folder
             video_path = os.path.join(folder_path, filename)
