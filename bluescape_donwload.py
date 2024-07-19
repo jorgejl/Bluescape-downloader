@@ -110,7 +110,7 @@ if __name__ == "__main__":
             
             # Print the path of the downloaded image
             print(f"Image downloaded: {image_path}")
-        if item['type'] == "Video":
+        elif item['type'] == "Video":
             # Get the video URL
             video_url = item['asset']['url']
             
