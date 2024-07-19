@@ -1,4 +1,4 @@
-# Python Code (python 3.5+)
+# Python Code
 import requests
 import pprint
 import local_settings
