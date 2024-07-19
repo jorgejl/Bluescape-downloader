@@ -4,6 +4,7 @@ import pprint
 import local_settings
 import json
 import os
+from be_functions import sanitize_filename
 
 #will list all current workspaces for the logged in user
 #a download folder will be created for each workspace, a ./downloads folder 
