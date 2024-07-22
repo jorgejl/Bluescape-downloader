@@ -1,5 +1,5 @@
 # Bluescape-downloader
-Scripts to download Bluescape (Bluescape.com) content to the local computer, maintaining metadata.
+Scripts to download Bluescape (Bluescape.com) content, maintaining metadata.
 
 ## Important
 The script expects a file named "local_settings.py" at the root. An example is provided. Please use that file to store any confidential information (id's, credentials, etc)
