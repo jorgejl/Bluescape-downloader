@@ -7,6 +7,9 @@ import inquirer
 # First attempt to generate a high quality reference of the downloaded files.
 # TODO: Using png for convenience, but PDF with link to the original files or
 # HTML file with links to the original would be better probably.
+#
+#
+# ********* THIS IS NOT WORKING ATM
 
 def load_image(filepath):
     try:
